@@ -204,8 +204,8 @@ nav ul li a {
   padding: 96px 24px;
   color: #f5f7fa;
 }
-.hacker-sec{
-    padding: 0 100px;
+.hacker-sec {
+  padding: 0 100px;
 }
 .hack-heading {
   text-align: center;
@@ -241,7 +241,6 @@ nav ul li a {
   color: #a7b0c0;
   margin: 0;
 }
-
 
 .hack-timeline {
   position: relative;
@@ -306,7 +305,6 @@ nav ul li a {
   color: #8d96a8;
   margin: 0;
 }
-
 
 .hack-footer-row {
   display: grid;
@@ -385,8 +383,15 @@ nav ul li a {
 footer {
   background-color: #0d1b2a;
   color: #797878;
+  padding: 20px 0;
+}
+.foot-hr {
+  margin: 20px auto;
+  max-width: 75%;
+  border: none;
+  height: 1px;
+  background-color: #797878;
 }
 .copy {
-  cursor: pointer;
+  text-align: center;
 }
-
