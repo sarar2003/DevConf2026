@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevConf 2026</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -25,13 +31,175 @@
       </nav>
     </header>
     <main>
-        <!-- banner section starts here -->
-         <section class="banner">
-            <h1>Code. Connect, Create</h1>
-            <p>Join 4,000+ engineers, founders, and builders at the premier developer conference of 2026. Three days of cutting-edge talks, hands-on workshops, and meaningful connections.</p>
-            <button class="btn">Register Now</button>
-         </section>
+      <!-- banner section starts here -->
+      <section class="banner">
+        <h1>Code. <span class="banner-sp">Connect.</span> Create</h1>
+        <p>
+          Join 4,000+ engineers, founders, and builders at
+          <span class="blue">the</span> premier developer conference of 2026.
+          Three days of cutting-edge talks, hands-on workshops, and meaningful
+          connections.
+        </p>
+        <button class="btn">Register Now</button>
+      </section>
+      <!-- speaker section starts here -->
+      <section class="speaker container">
+        <h1 class="mt-speaker">Meet the Speakers</h1>
+        <div class="sp-cards">
+          <div class="sp-card">
+            <div class="card-img">
+              <img src="./assets/andrej.png" alt="" />
+            </div>
+            <div class="card-body">
+              <div class="card-title">
+                <h3>AI/ML</h3>
+              </div>
+              <div class="card-subtitle">
+                <h2>Andrej Karpathy</h2>
+              </div>
+            </div>
+            <div class="card-footer">
+              <h3>Pretrainng team, Anthropic</h3>
+            </div>
+          </div>
+          <div class="sp-card">
+            <div class="card-img">
+              <img src="./assets/demis.png" alt="" />
+            </div>
+            <div class="card-body">
+              <div class="card-title">
+                <h3>CLOUD & DEVOPS</h3>
+              </div>
+              <div class="card-subtitle">
+                <h2>Demis Hassabis</h2>
+              </div>
+            </div>
+            <div class="card-footer">
+              <h3>Co-Founder and CEO, Google DeepMind</h3>
+            </div>
+          </div>
+          <div class="sp-card">
+            <div class="card-img">
+              <img src="./assets/gary.png" alt="" />
+            </div>
+            <div class="card-body">
+              <div class="card-title">
+                <h3>FRONTEND</h3>
+              </div>
+              <div class="card-subtitle">
+                <h2>Gary Marcus</h2>
+              </div>
+            </div>
+            <div class="card-footer">
+              <h3>Staff Engineer, Vercel</h3>
+            </div>
+          </div>
+          <div class="sp-card">
+            <div class="card-img">
+              <img src="./assets/mustafa.png" alt="" />
+            </div>
+            <div class="card-body">
+              <div class="card-title">
+                <h3>SECURITY</h3>
+              </div>
+              <div class="card-subtitle">
+                <h2>Mustafa Suleyman</h2>
+              </div>
+            </div>
+            <div class="card-footer">
+              <h3>CEO of Microsoft AI</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- pricing section starts here -->
+      <section class="pricing container">
+        <div class="price-header">
+          <h1>Secure Your Spot</h1>
+          <p>Early-bird pricing ends Ausgust 15, 2026.</p>
+        </div>
+        <div class="p-cards">
+          <div class="p-card">
+            <div class="p-head">
+              <h3>STANDARD</h3>
+              <h2>$399</h2>
+              <p>per person</p>
+            </div>
+            <hr />
+            <div class="p-body">
+                <ul>
+                    <li>Access to all 3 conference days</li>
+                <li>48 curated technical talks</li>
+                <li>2 workshop sessions</li>
+                <li>Networking lunch & coffee breaks</li>
+                <li>Conference swag bag</li>
+                <li>Digital recordings(30 days)</li>
+              </ul>
+            </div>
+            <div class="p-foot">
+              <button>Get Standard</button>
+            </div>
+          </div>
+          <div class="p-card cb">
+            <div class="p-head">
+              <h3>PRO</h3>
+              <h2>$749</h2>
+              <p>per person</p>
+            </div>
+            <hr />
+            <div class="p-body">
+                <ul>
+                    <li>Everything in Standard</li>
+                <li>Unlimited workshop access</li>
+                <li>Speaker meet & greet</li>
+                <li>VIP networking dinner</li>
+                <li>Lifetime recording access</li>
+                <li>1-on-1 mentorship |30min|</li>
+              </ul>
+            </div>
+            <div class="p-foot ">
+              <button class="pro">Get Pro</button>
+            </div>
+          </div>
+          
+          <div class="p-card gryed">
+            <div class="p-head">
+              <h3>TEAM</h3>
+              <h2>$5,999</h2>
+              <p>up to 10 people</p>
+            </div>
+            <hr />
+            <div class="p-body">
+                <ul>
+                    <li>Everything in Pro (10 seats)</li>
+                <li>48 curated technical talk</li>
+                <li>2 workshop sessions</li>
+                <li>Networking lunch & coffee breaks</li>
+                <li>Conference swag bag</li>
+                <li>Digital recordings(30 days)</li>
+              </ul>
+            </div>
+            <div class="p-foot">
+              <button>Contact Us</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
-    <footer></footer>
+    <!-- footer starts here -->
+    <footer>
+        <nav class="container">
+            <div class="copy">
+                &copy; 2026 DevConf. All rights reserved.
+            </div>
+            <div class="services">
+                <ul>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms of Service</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
   </body>
 </html>

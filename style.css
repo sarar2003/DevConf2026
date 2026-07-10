@@ -12,6 +12,7 @@ html {
 }
 
 body {
+  font-family: inter, sans-serif;
 }
 header {
 }
@@ -24,6 +25,7 @@ nav {
 }
 .logo {
   margin-left: 16px;
+  cursor: pointer;
 }
 nav ul {
   display: flex;
@@ -34,10 +36,14 @@ nav ul {
 }
 nav ul li a {
   text-decoration: none;
-  color: #575757;
+  color: #414040;
+  font-size: 20px;
 }
 .nav-btn {
   margin-right: 16px;
+}
+.nav-btn button {
+  font-weight: 700;
 }
 .btn {
   padding: 12px 28px;
@@ -45,17 +51,162 @@ nav ul li a {
   background-color: #1d4ed8;
   color: #ffffff;
   border-radius: 6px;
+  cursor: pointer;
 }
-.banner{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0, 0.5)), url("./assets/banner.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 90vh;
-    color: #ffffff;
-    padding: 100px 0;
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    align-items:center ;
+.banner {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  color: #ffffff;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.blue {
+  color: rgb(124, 232, 232);
+}
+.banner h1 {
+  font-size: 80px;
+}
+.banner-sp {
+  font-style: italic;
+}
+.banner p {
+  font-size: 22px;
+  max-width: 700px;
+  text-align: center;
+}
+.banner button {
+  margin-top: 280px;
+  font-size: 18px;
+  padding: 12px 38px;
+}
+.mt-speaker {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 56px;
+}
+.speaker {
+  padding: 40px 0;
+}
+.sp-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin: 50px 0;
+}
+.sp-card {
+  border-radius: 12px;
+  box-shadow: 0px 0px 3px;
+}
+.card-img {
+}
+.card-img img {
+  object-fit: cover;
+  border-radius: 12px 12px 0px 0px;
+  width: 100%;
+}
+.card-title {
+  font-size: 12px;
+  color: #2563eb;
+}
+.card-subtitle {
+  font-size: 20px;
+  margin-top: 0.8rem;
+}
+.card-footer {
+  font-size: 14px;
+  margin-top: 0.3rem;
+  padding: 0px 25px 30px;
+  color: rgb(109, 108, 108);
+  font-weight: 300;
+}
+.card-body {
+  padding: 18px 25px;
+}
+.pricing {
+  padding: 50px 0;
+}
+.price-header {
+  text-align: center;
+  line-height: 3.2rem;
+}
+.price-header h1 {
+  font-size: 56px;
+}
+.p-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin: 50px 110px;
+  gap: 20px;
+}
+.p-card {
+  border-radius: 12px;
+  box-shadow: 0px 0px 3px;
+  padding: 40px 50px;
+}
+.p-head h3,
+.p-head p {
+  font-size: 13px;
+  color: rgb(84, 83, 83);
+}
+.p-head h2 {
+  margin: 10px 0;
+  font-size: 44px;
+}
+.p-head p {
+  margin: 0px 0 20px;
+}
+.p-body {
+  margin: 20px 0 20px;
+}
+.p-body ul {
+  padding-left: 1rem;
+}
+.p-body ul li {
+  line-height: 2rem;
+}
+.gryed {
+  background-color: #f8f9fb;
+}
+.gryed .p-foot button {
+  border: 1px solid black;
+  color: black;
+}
+.cb {
+  background-color: #0d1b2a;
+  color: white;
+}
+.cb .p-head h3 {
+  color: #1d4ed8;
+}
+.pro {
+  background-color: #1d4ed8;
+  color: white !important ;
+  font-weight: 700;
+}
+.p-foot button {
+  width: 100%;
+  padding: 10px 30px;
+  border-radius: 8px;
+  border: 1px solid #2563eb;
+  color: #2563eb;
+}
+footer {
+    background-color: #0d1b2a;
     
+}
+.copy{
+    cursor: pointer;
+}
+footer div{
+    color: #797878;
+
 }
