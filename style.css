@@ -199,14 +199,193 @@ nav ul li a {
   border: 1px solid #2563eb;
   color: #2563eb;
 }
-footer {
-    background-color: #0d1b2a;
-    
+.hack-section {
+  background: #0b1220;
+  padding: 96px 24px;
+  color: #f5f7fa;
 }
-.copy{
-    cursor: pointer;
-}
-footer div{
-    color: #797878;
 
+.hack-heading {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 72px;
+}
+
+.hack-eyebrow {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #7c9cff;
+  background: rgba(124, 156, 255, 0.1);
+  border: 1px solid rgba(124, 156, 255, 0.25);
+  padding: 6px 14px;
+  border-radius: 999px;
+  margin-bottom: 20px;
+}
+
+.hack-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 16px;
+  color: #ffffff;
+}
+
+.hack-sub {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #a7b0c0;
+  margin: 0;
+}
+
+
+.hack-timeline {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  margin-bottom: 72px;
+}
+
+.hack-track-line {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    rgba(124, 156, 255, 0.05),
+    rgba(124, 156, 255, 0.5),
+    rgba(124, 156, 255, 0.05)
+  );
+  z-index: 0;
+}
+
+.hack-phase {
+  position: relative;
+  z-index: 1;
+  padding-top: 28px;
+}
+
+.hack-dot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #2f5dff;
+  box-shadow: 0 0 0 4px rgba(47, 93, 255, 0.2);
+}
+
+.hack-time {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #7c9cff;
+  margin-bottom: 10px;
+}
+
+.hack-phase-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0 0 8px;
+}
+
+.hack-phase-desc {
+  font-size: 14px;
+  line-height: 1.55;
+  color: #8d96a8;
+  margin: 0;
+}
+
+/* Footer row: prize + CTA */
+.hack-footer-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: stretch;
+}
+
+.hack-prize-card {
+  background: linear-gradient(135deg, #14203d, #0e1730);
+  border: 1px solid rgba(124, 156, 255, 0.2);
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.hack-prize-label {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #7c9cff;
+}
+
+.hack-prize-amount {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.hack-prize-note {
+  font-size: 13px;
+  color: #8d96a8;
+}
+
+.hack-cta-block {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+}
+
+.hack-cta-text {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333b49;
+  margin: 0;
+}
+
+.hack-cta-btn {
+  display: inline-block;
+  background: #2f5dff;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  padding: 13px 20px;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+
+.hack-cta-btn:hover {
+  background: #1e45e0;
+}
+
+.hack-cta-btn:focus-visible {
+  outline: 2px solid #7c9cff;
+  outline-offset: 2px;
+}
+footer {
+  background-color: #0d1b2a;
+}
+.copy {
+  cursor: pointer;
+}
+footer div {
+  color: #797878;
 }
