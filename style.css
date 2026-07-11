@@ -178,6 +178,9 @@ nav ul li a {
 .p-body ul li {
   line-height: 2rem;
 }
+.p-body ul li::marker{
+  color: #1e45e0;
+}
 .gryed {
   background-color: #f8f9fb;
 }
