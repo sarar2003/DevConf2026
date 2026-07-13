@@ -394,6 +394,9 @@ footer {
   color: #797878;
   padding: 20px 0;
 }
+footer .social-links img {
+  width: 34px;
+}
 .foot-hr {
   margin: 20px auto;
   max-width: 75%;
